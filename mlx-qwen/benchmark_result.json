@@ -1,0 +1,66 @@
+{
+  "model": "mlx-community/Qwen3.5-0.8B-OptiQ-4bit",
+  "results": [
+    {
+      "prompt_name": "短文本",
+      "prompt_tokens": 27,
+      "generation_tokens": 23,
+      "ttft_ms": 249.1,
+      "tpot_ms": 6.1,
+      "tps": 58.1,
+      "prompt_tps": 486.5,
+      "total_time_ms": 396.1,
+      "peak_memory_gb": 0.78
+    },
+    {
+      "prompt_name": "中文本",
+      "prompt_tokens": 35,
+      "generation_tokens": 512,
+      "ttft_ms": 262.1,
+      "tpot_ms": 6.3,
+      "tps": 145.9,
+      "prompt_tps": 499.0,
+      "total_time_ms": 3508.4,
+      "peak_memory_gb": 0.78
+    },
+    {
+      "prompt_name": "长文本",
+      "prompt_tokens": 39,
+      "generation_tokens": 220,
+      "ttft_ms": 257.3,
+      "tpot_ms": 6.2,
+      "tps": 135.8,
+      "prompt_tps": 562.5,
+      "total_time_ms": 1619.5,
+      "peak_memory_gb": 0.78
+    },
+    {
+      "prompt_name": "代码",
+      "prompt_tokens": 34,
+      "generation_tokens": 512,
+      "ttft_ms": 315.3,
+      "tpot_ms": 6.3,
+      "tps": 143.6,
+      "prompt_tps": 365.6,
+      "total_time_ms": 3570.6,
+      "peak_memory_gb": 0.78
+    },
+    {
+      "prompt_name": "推理",
+      "prompt_tokens": 50,
+      "generation_tokens": 131,
+      "ttft_ms": 270.5,
+      "tpot_ms": 6.2,
+      "tps": 120.5,
+      "prompt_tps": 638.8,
+      "total_time_ms": 1087.4,
+      "peak_memory_gb": 0.81
+    }
+  ],
+  "summary": {
+    "avg_tps": 120.8,
+    "avg_ttft_ms": 270.9,
+    "avg_tpot_ms": 6.2,
+    "peak_memory_gb": 0.81
+  }
+}
