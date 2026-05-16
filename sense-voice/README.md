@@ -2,6 +2,8 @@
 
 在 Apple Silicon 上通过 MLX 运行 [SenseVoiceSmall](https://huggingface.co/mlx-community/SenseVoiceSmall)，使用 Gradio 提供语音识别 Web 界面。
 
+![](./result.png)
+
 ## 模型简介
 
 SenseVoice 是阿里通义实验室开源的语音识别模型，支持多语言转录、语种检测和情感识别。本仓库使用 `mlx-audio` 将模型转换为 MLX 格式，在 Apple Silicon 上高效推理。
