@@ -81,7 +81,7 @@ with gr.Blocks(title="MOSS-TTS-Nano MLX") as demo:
         ref_audio = gr.Audio(
             label="参考音频（声音克隆）",
             type="filepath",
-            sources=["upload"],
+            sources=["microphone", "upload"],
             scale=2,
         )
 
