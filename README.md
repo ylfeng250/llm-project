@@ -8,6 +8,7 @@
 - [MLX YOLO26s-OptiQ Gradio Web Demo](./mlx-yolo) — 目标检测
 - [MLX DeepSeek-OCR-2 Gradio Web Demo](./deepseek-ocr) — OCR 文字识别
 - [播客生成工具 Podcast Generator](./podcast) — 双人播客对话生成 + 声音克隆 TTS
+- [MLX VibeVoice-Realtime-0.5B Gradio Web Demo](./vibevoice) — Microsoft 实时 TTS
 
 ## 快速启动
 
@@ -27,4 +28,5 @@ cd podcast && ./start.sh       # 浏览器打开 http://localhost:7865
 | SenseVoice ASR | 7862 | sense-voice |
 | YOLO26s-OptiQ | 7863 | mlx-yolo |
 | DeepSeek-OCR-2 | 7864 | deepseek-ocr |
-| Podcast Generator | 7865 | podcast
+| Podcast Generator | 7865 | podcast |
+| VibeVoice-Realtime-0.5B | 7866 | vibevoice |
